@@ -21,4 +21,9 @@ dependencyResolutionManagement {
 
 rootProject.name = "OnlyMine"
 include(":app")
- 
+include(":OnlyMyPart")
+include(":OnlyMyPart:adapter")
+include(":OnlyMyPart:part")
+include(":OnlyMineDelegate")
+include(":OnlyMylifecycle")
+include(":OnlyMyPart:fragment")
